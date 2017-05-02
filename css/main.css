@@ -16,8 +16,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 45px;
   margin-bottom: 20px;
+  color:#fefefe;
+}
+span.title{
+ color:#028fcc;
+ font-size:50px;
+ font-weight: 700;
+}
+span.title.lowercase{
+ text-transform:lowercase;
+ font-size:80px;
 }
 
 h3 {
@@ -64,11 +74,11 @@ h3 {
   background-color: #017fb5;
 }
 
-.navbar-nav li a:hover, 
+.navbar-nav li a:hover,
 .navbar-nav li a:focus {
   outline:none;
   outline-offset: 0;
-  text-decoration:none;  
+  text-decoration:none;
   background: transparent;
 }
 
@@ -80,7 +90,7 @@ a {
   transition: 300ms;
 }
 
-a:focus, 
+a:focus,
 a:hover {
   text-decoration: none;
   outline: none
@@ -128,7 +138,7 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 50%;
+  top: 45%;
   margin-top: -104px;
   left: 0;
   right: 0;
@@ -204,7 +214,7 @@ section {
   width: 51px;
   line-height: 48px;
   border-radius: 50%;
-  border:1px solid #fff;  
+  border:1px solid #fff;
   z-index: 20;
   font-size: 24px;
   color: #fff;
@@ -218,20 +228,20 @@ section {
 
 .left-control {
   left: -51px
-} 
+}
 
 .right-control {
   right: -51px;
 }
 
-.left-control:hover, 
+.left-control:hover,
 .right-control:hover {
   color: #fff;
 }
 
 #home-slider:hover .left-control {
   left:30px
-} 
+}
 
 #home-slider:hover .right-control {
   right:30px
@@ -280,7 +290,7 @@ section {
   font-size: 36px;
   height: 90px;
   line-height: 90px;
-  width: 90px;  
+  width: 90px;
   -webkit-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
 }
@@ -295,14 +305,14 @@ section {
   padding-bottom: 50px;
 }
 
-.our-services .col-sm-4:nth-child(4), 
-.our-services .col-sm-4:nth-child(5), 
+.our-services .col-sm-4:nth-child(4),
+.our-services .col-sm-4:nth-child(5),
 .our-services .col-sm-4:nth-child(6) {
   border-bottom:0;
   padding-top: 60px;
 }
 
-.our-services .col-sm-4:nth-child(3), 
+.our-services .col-sm-4:nth-child(3),
 .our-services .col-sm-4:nth-child(6) {
   border-right:0;
 }
@@ -361,7 +371,7 @@ section {
 ********portfolio CSS*****
 **************************/
 
-#portfolio .container-fluid, 
+#portfolio .container-fluid,
 #portfolio .col-sm-3  {
   overflow: hidden;
   padding: 0;
@@ -373,14 +383,14 @@ section {
 
 #portfolio .overlay {
   background-color: #000;
-  color: #fff; 
+  color: #fff;
   left: 0;
   right:0;
   bottom:-100%;
   height: 0;
   position: absolute;
   text-align: center;
-  opacity:0;  
+  opacity:0;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
@@ -457,7 +467,7 @@ section {
 }
 
 #portfolio .folio-item:hover .overlay .folio-info {
-  opacity: 1;  
+  opacity: 1;
   margin-bottom:0;
   margin-top:0;
 }
@@ -635,11 +645,11 @@ section {
   line-height: 30px;
 }
 
-.single-table.featured {  
+.single-table.featured {
   color: #fff;
 }
 
-.single-table.featured h3 { 
+.single-table.featured h3 {
   color: #fff;
 }
 
@@ -675,7 +685,7 @@ section {
   height: 64px;
   width: 64px;
   line-height: 65px;
-  border-radius: 50%; 
+  border-radius: 50%;
   position: relative;
 }
 
@@ -703,7 +713,7 @@ section {
   color: #fff;
 }
 
-.twitter-left-control, 
+.twitter-left-control,
 .twitter-right-control {
   position: absolute;
   top: 50%;
@@ -720,7 +730,7 @@ section {
 
 .twitter-left-control {
   left: 80px;
-} 
+}
 
 .twitter-right-control {
   right: 80px
@@ -789,14 +799,14 @@ section {
 }
 
 .blog-left-control:hover, .blog-right-control:hover {
-  color: #fff;  
+  color: #fff;
 }
 
 .entry-header h3 a {
   line-height: 30px;
 }
 
-.entry-header .date, 
+.entry-header .date,
 .entry-header .cetagory {
   display: inline-block;
   font-size: 11px;
@@ -853,7 +863,7 @@ section {
 
 #contact-us {
   background-image:url(../images/contact-bg.jpg);
-  padding-bottom: 90px; 
+  padding-bottom: 90px;
 }
 
 #contact-us .heading {
@@ -970,5 +980,3 @@ ul.address {
 }
 
 /*Presets*/
-
-
