@@ -18,7 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   font-size: 45px;
   margin-bottom: 20px;
-  color:#fefefe;
+ /* color:#fefefe;*/
 }
 span.title{
  color:#028fcc;
@@ -39,6 +39,9 @@ h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+li{
+ text-align: left;
 }
 
 .parallax,
@@ -63,6 +66,10 @@ h3 {
 .parallax textarea:hover {
   font-weight: 300;
   color: #fff;
+}
+.logoimage{
+    height: 8pc;
+    margin-top: -17px;
 }
 
 .btn {
@@ -98,10 +105,21 @@ a:hover {
 
 section {
   padding: 90px 0;
+  /*padding-bottom: 90px;*/
+}
+
+#challenges .heading{
+ padding-top:90px;
 }
 
 .heading {
-  padding-bottom:90px;
+  /*padding-bottom:90px;*/
+  padding-bottom:45px;
+}
+
+.miniheading{
+ padding:45px 0;
+
 }
 
 .preloader {
@@ -319,6 +337,7 @@ section {
 
 .service-info h3 {
   margin-top: 35px;
+  font-size:2em;
 }
 
 /*************************
@@ -327,6 +346,7 @@ section {
 #about-us {
   background-image: url(../images/about-bg.jpg);
   padding: 60px 0;
+  /*padding:90px 0;*/
 }
 
 #about-us h2 {
@@ -499,7 +519,7 @@ section {
 *********Team CSS*********
 **************************/
 #team {
-  padding-top: 0;
+  /*padding-top: 0;*/
 }
 
 .team-members {
