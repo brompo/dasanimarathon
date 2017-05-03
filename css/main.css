@@ -115,9 +115,17 @@ section {
   /*padding-bottom: 90px;*/
 }
 
+
+/** --- CHALLENGES SECTION ---*/
+
 #challenges .heading{
  padding-top:90px;
 }
+
+#challenges p.main{
+ font-size:20px;
+}
+
 
 .heading {
   /*padding-bottom:90px;*/
@@ -659,6 +667,8 @@ section {
 .price {
   font-size: 36px;
   line-height: 36px;
+  color: #fbf807;
+  text-align-left;
 }
 
 .price span {
