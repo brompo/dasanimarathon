@@ -10,6 +10,13 @@ body {
   color: #666;
   background-color: #fff;
 }
+.landingpage{
+  background: url(../images/resources/background.png) no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+}
 
 h1, h2, h3, h4, h5, h6 {
   color: #333;
@@ -156,7 +163,7 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 45%;
+  top: 50%;
   margin-top: -104px;
   left: 0;
   right: 0;
@@ -177,16 +184,20 @@ section {
 
 .caption .btn-start {
   color: #fff;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 600;
   padding:14px 40px;
   border: 1px solid #6e6d6c;
   border-radius: 4px;
   margin-top: 40px;
+  background: #028fcc;
+  margin-left: -10px;
 }
 
 .caption .btn-start:hover {
-  color: #fff
+ color: #fefeff;
+   background: #02548a;
+   font-size: 20px;
 }
 
 .carousel-fade .carousel-inner .item {
@@ -205,7 +216,7 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0,0,0,.7);
+  /*background: rgba(0,0,0,.7);*/
 }
 
 .carousel-fade .carousel-inner .active {
