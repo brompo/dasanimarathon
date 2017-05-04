@@ -136,6 +136,7 @@ jQuery(function($) {
 	});
 
 	//Google Map
+	/*
 	var latitude = $('#google-map').data('latitude')
 	var longitude = $('#google-map').data('longitude')
 	function initialize_map() {
@@ -159,6 +160,9 @@ jQuery(function($) {
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
+*/
+
+//End of Map
 
 });
 
@@ -179,7 +183,7 @@ jQuery(function($) {
         });
 
     function labnolThumb(id) {
-        var thumb = '<img src="https://i.ytimg.com/vi/ID/hqdefault.jpg">',
+        var thumb = '<img src="/dasani/images/hqdefault.jpg">',
             play = '<div class="play"></div>';
         return thumb.replace("ID", id) + play;
     }
