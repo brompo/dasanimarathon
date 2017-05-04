@@ -163,7 +163,7 @@ section {
 /*ON course support */
 .onCourseSupport{
  min-height:410px;
- border: 1px solid #f2f2f2;
+ border: 1px solid #028fcc;
 }
 
 
@@ -343,8 +343,8 @@ section {
 }
 
 .our-services .col-sm-4 {
-  border-right:1px solid #f2f2f2;
-  border-bottom:1px solid #f2f2f2;
+  /*border-right:1px solid #f2f2f2;*/
+/*  border-bottom:1px solid #f2f2f2;*/
   padding-bottom: 50px;
 }
 
@@ -357,7 +357,7 @@ section {
 
 .our-services .col-sm-4:nth-child(3),
 .our-services .col-sm-4:nth-child(6) {
-  border-right:0;
+ /* border-right:0;*/
 }
 
 .service-info h3 {
@@ -474,7 +474,7 @@ section {
   border-radius: 50%;
   background-color: #fff;
   display: inline-block;
-  margin-top: 20px;
+ /* margin-top: 20px;*/
   margin-right: 5px;
 }
 
@@ -484,7 +484,7 @@ section {
 
 .folio-overview .folio-expand {
   margin-top: -500px;
-  margin-left: -500px;
+/*  margin-left: -500px;*/
 }
 
 .folio-image, .folio-overview .folio-expand {
@@ -495,6 +495,11 @@ section {
 #portfolio .folio-item:hover .folio-image {
   -webkit-transform: scale(1.5) rotate(-15deg);
   transform: scale(1.5) rotate(-15deg);
+}
+
+.gallerycolumn{
+ padding-right: 1px;
+padding-left: 1px;
 }
 
 .folio-image img {
