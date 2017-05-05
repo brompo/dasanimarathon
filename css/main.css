@@ -292,7 +292,7 @@ section {
   right:30px
 }
 
-#home-slider .fa-angle-down {
+.fa-angle-down {
   position: absolute;
   left: 50%;
   bottom: 50px;
