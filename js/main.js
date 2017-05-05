@@ -41,7 +41,8 @@ jQuery(function($) {
 		var rangeTop    =   200;
 		var rangeBottom =   400;
 		$('.navbar-collapse').find('.scroll a').each(function(){
-			contentTop.push( $( $(this).attr('href') ).offset().top + 0);
+		
+			contentTop.push( $( $(this).attr('href') ).offset().top);
 			contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
 		})
 		$.each( contentTop, function(i){
@@ -136,7 +137,7 @@ jQuery(function($) {
 	});
 
 	//Google Map
-	/*
+/*
 	var latitude = $('#google-map').data('latitude')
 	var longitude = $('#google-map').data('longitude')
 	function initialize_map() {
@@ -160,8 +161,8 @@ jQuery(function($) {
 		});
 	}
 	google.maps.event.addDomListener(window, 'load', initialize_map);
-*/
 
+*/
 //End of Map
 
 });
