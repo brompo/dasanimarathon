@@ -41,7 +41,7 @@ jQuery(function($) {
 		var rangeTop    =   200;
 		var rangeBottom =   400;
 		$('.navbar-collapse').find('.scroll a').each(function(){
-		
+
 			contentTop.push( $( $(this).attr('href') ).offset().top);
 			contentBottom.push( $( $(this).attr('href') ).offset().top + $( $(this).attr('href') ).height() );
 		})
@@ -184,7 +184,7 @@ jQuery(function($) {
         });
 
     function labnolThumb(id) {
-        var thumb = '<img src="/dasani/images/hqdefault.jpg">',
+        var thumb = '<img src="/images/hqdefault.jpg">',
             play = '<div class="play"></div>';
         return thumb.replace("ID", id) + play;
     }
