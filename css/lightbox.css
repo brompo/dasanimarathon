@@ -125,7 +125,7 @@ body:after {
 }
 
 .lb-nav a.lb-next {
-  width: 64%;
+  /*width: 64%;*/
   right: 0;
   float: right;
   background: url(../images/lightbox/next.png) right 48% no-repeat;
@@ -180,7 +180,8 @@ body:after {
 }
 
 .lb-data .lb-number {
-  display: block;
+  /*display: block;*/
+  display:none !important;
   clear: left;
   padding-bottom: 1em;
   font-size: 12px;
