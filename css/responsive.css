@@ -1,10 +1,18 @@
-/* lg */ 
+/* lg */
 @media (min-width: 1200px) {
+
+ .onCourseSupport{
+  width:33%;
+ }
 
 }
 
 /* md */
 @media (min-width: 992px) and (max-width: 1199px) {
+
+ .onCourseSupport{
+  width:33%;
+ }
 
 }
 
@@ -14,6 +22,12 @@
 		font-size: 12px;
 		padding-right: 10px;
 	}
+
+ .onCourseSupport{
+  width: 33%;
+  display: inline-block;
+ }
+
 	.social-icons ul li {
 		margin-bottom: 10px;
 	}
@@ -37,6 +51,12 @@
 	body {
 		font-size: 14px;
 	}
+
+ .onCourseSupport{
+  width: 90%;
+  display: inline-block;
+ }
+
 	#home-slider .caption h1 {
 		font-size: 40px;
 	}
@@ -94,8 +114,8 @@
 		margin-bottom: 32px;
 		padding-bottom: 20px;
 	}
-	.our-services .col-sm-4:nth-child(4), 
-	.our-services .col-sm-4:nth-child(5), 
+	.our-services .col-sm-4:nth-child(4),
+	.our-services .col-sm-4:nth-child(5),
 	.our-services .col-sm-4:nth-child(6) {
 		padding-top: 0;
 	}
@@ -103,7 +123,7 @@
 		font-size: 30px;
 		height: 65px;
 		line-height: 62px;
-		width: 65px;
+		/*width: 65px;*/
 	}
 	.our-services .col-sm-4:hover .service-icon:before {
 		height: 90px;
@@ -116,9 +136,9 @@
 	.team-member {
 		margin-bottom: 50px;
 	}
-	.team-members .col-sm-3, 
-	.pricing-table .col-sm-3, 
-	#portfolio .col-sm-3, 
+	.team-members .col-sm-3,
+	.pricing-table .col-sm-3,
+	#portfolio .col-sm-3,
 	.blog-posts .col-sm-4  {
 		width: 50%;
 		float: left;
@@ -128,7 +148,7 @@
 		height: 30px;
 		line-height: 30px;
 		width: 30px;
-	}	
+	}
 	.count .col-xs-6 {
 		margin-bottom: 35px;
 	}
@@ -147,16 +167,17 @@
 	}
 	.price {
 		font-size: 18px;
-		height: 110px;
+		/*height: 110px;*/
 		line-height: 35px;
-		width: 130px;
+		/*width: 130px;*/
+  font-weight: 600;
 	}
 	.single-table ul {
 		margin-top: 22px;
 	}
 	.single-table ul li {
 		font-size: 14px;
-		margin-top: 15px;
+		/*margin-top: 15px;*/
 	}
 	.btn-signup {
 		font-size: 12px;
@@ -170,7 +191,7 @@
 	#twitter {
 		padding-bottom: 75px;
 	}
-	.twitter-left-control, 
+	.twitter-left-control,
 	.twitter-right-control {
 		top: inherit;
 		bottom: 30px;
@@ -181,7 +202,7 @@
 	}
 	.twitter-left-control {
 		left: 40%
-	} 
+	}
 	.twitter-right-control {
 		right: 40%
 	}
@@ -217,13 +238,12 @@
 
 /* XS Portrait */
 @media (max-width: 479px) {
-  
-	.team-members .col-sm-3, 
-	.pricing-table .col-sm-3, 
-	#portfolio .col-sm-3, 
+
+	.team-members .col-sm-3,
+	.pricing-table .col-sm-3,
+	#portfolio .col-sm-3,
 	.blog-posts .col-sm-4 {
 		width:100%;
 		float: none;
 	}
 }
-
