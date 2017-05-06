@@ -177,6 +177,7 @@ section {
  padding-left:0px;
 }
 
+.
 
 
 /*************************
@@ -932,6 +933,12 @@ padding-left: 1px;
 #contact {
   padding-top: 45px;
   padding-bottom: 0;
+}
+
+.organizers-info
+{
+ font-size: 26px;
+     color: #efee0e; 
 }
 
 #google-map {
