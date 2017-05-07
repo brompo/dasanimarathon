@@ -246,4 +246,33 @@
 		width:100%;
 		float: none;
 	}
+
+
+}
+
+@media (max-width:600px){
+
+ .landingpage{
+   background: url(../images/resources/backgroundxs.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+
+  .count-down-container {
+      /*background-color: rgb(2, 143, 204);*/
+      margin-left:10px;
+      margin-right:10px;
+  }
+
+  .logoimage{
+     background-image: url(../images/logoxs.png);
+      /*height: 8pc;*/
+      width: 72px;
+      height: 72px;
+      background-repeat: no-repeat;
+      margin-top:0px;
+  }
+
 }
