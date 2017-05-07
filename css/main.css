@@ -11,7 +11,7 @@ body {
   background-color: #fff;
 }
 .landingpage{
-  background: url(../images/resources/background.png) no-repeat center center fixed;
+  background: url(../images/resources/background.png) no-repeat center center;
  -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -662,7 +662,10 @@ padding-left: 1px;
 **************************/
 #features {
   text-align: center;
-  background-image: url(../images/features-bg.jpg);
+  background-image: url(../images/resources/dasanibg.png);
+  background-color: #16233a;
+  margin-bottom:-45px;
+  background-size: contain;
 }
 
 #features i {
@@ -938,7 +941,7 @@ padding-left: 1px;
 .organizers-info
 {
  font-size: 26px;
-     color: #efee0e; 
+     color: #efee0e;
 }
 
 #google-map {
