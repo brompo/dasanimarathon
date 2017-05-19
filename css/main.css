@@ -526,8 +526,20 @@ section {
 }
 
 .gallerycolumn{
- padding-right: 1px;
-padding-left: 1px;
+ padding-right: 0px;
+padding-left: 0px;
+border:1px solid #fff;
+}
+
+h3.viewmore:hover {
+
+    font-size: 23px;
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+
+h3.viewmore {
+    color: white;
 }
 
 .folio-image img {
