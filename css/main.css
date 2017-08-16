@@ -1,4 +1,4 @@
-
+container2
 /*************************
 *******Typography******
 **************************/
@@ -577,7 +577,7 @@ h3.viewmore {
 
 #single-portfolio .close-folio-item {
   position: absolute;
-  top: 30px;
+  top: 30px;container2
   font-size: 34px;
   width: 34px;
   height: 34px;
@@ -709,6 +709,731 @@ section#gallery{
 #gallery h2 {
     color: #fefefe;
 }
+
+/****************Results section************/
+
+#results {
+	position: relative;
+	height:1300px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+
+
+.tablsize {
+	width:440px;
+	height:400px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 3px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:440px;
+	height:400px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Media queries*/
+
+
+@media (min-width:1300px) and (max-width:1359px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+}
+
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+.tablsize {
+	width:420px;
+	height:380px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 1px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:420px;
+	height:380px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+
+@media (min-width:1245px) and (max-width:1299px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+	font-size:13px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+.tablsize {
+	width:400px;
+	height:360px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+
+.tabl tr {
+	padding:2px;
+}
+
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+}
+
+.tabl2size {
+	width:400px;
+	height:360px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:34%;
+}
+
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+@media (min-width:1190px) and (max-width:1244px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+	font-size:12px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+.tablsize {
+	width:380px;
+	height:340px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:380px;
+	height:340px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+@media (min-width:845px) and (max-width:1189px) {
+
+    #results {
+	position: relative;
+	height:1500px;
+	font-size:13px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:50%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:50%;
+	padding: 8px;
+	float: right;
+
+
+}
+
+.container3 {
+	width:50%;
+	padding: 8px;
+	float:left;
+
+}
+
+
+
+
+.tablsize {
+	width:400px;
+	height:360px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:right;
+	width: 50%;
+
+
+
+}
+
+.container5{
+
+	width: 100%;
+
+}
+
+.tabl2size {
+	width:400px;
+	height:360px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:auto;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+}
+
+
+@media screen and (max-width:844px) {
+
+    #results {
+	position: relative;
+	height:2500px;
+	font-size:14px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:100%;
+	padding: 8px;
+	float: left;
+	clear:both;
+
+
+}
+.container2 {
+	width:100%;
+	padding: 8px;
+	float: left;
+	clear:both;
+
+
+
+}
+
+.container3 {
+	width:100%;
+	padding: 8px;
+	float:left;
+	clear:both;
+
+}
+
+
+
+
+.tablsize {
+	width:440px;
+	height:400px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 1px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 100%;
+	clear:both;
+
+}
+
+.container5{
+	float: left;
+	width: 100%;
+	clear:both;
+
+}
+
+.tabl2size {
+	width:440px;
+	height:400px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:auto;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+
+
 
 /*************************
 *****Pricing Table CSS****
