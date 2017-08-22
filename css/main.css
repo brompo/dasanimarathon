@@ -1,4 +1,4 @@
-
+container2
 /*************************
 *******Typography******
 **************************/
@@ -194,16 +194,17 @@ section {
 
 #home-slider .caption {
   position: absolute;
-  top: 50%;
-  margin-top: -104px;
-  left: 0;
-  right: 0;
-  text-align: center;
-  text-transform: uppercase;
-  z-index: 15;
-  font-size: 18px;
-  font-weight: 300;
-  color: #fff;
+top: 77%;
+/* right: 36%; */
+margin-top: -104px;
+left: 0;
+right: -1140px;
+text-align: center;
+text-transform: uppercase;
+z-index: 15;
+font-size: 18px;
+font-weight: 300;
+color: #fff;
 }
 
 #home-slider .caption h1 {
@@ -213,25 +214,90 @@ section {
   margin-bottom: 30px;
 }
 
-.caption .btn-start {
-  /*color: #fff;*/
-  color:#0066B3;
-  font-size: 19px;
-  font-weight: 600;
-  padding:14px 40px;
-  border: 1px solid #abcf37;
-  border-radius: 4px;
-  margin-top: 40px;
-  /*background: #028fcc;*/
-  background:#d5db22;
-  margin-left: -10px;
+/*Feedback button css*/
+#fdback {
+position: fixed;
+left: 93.05%;
+top:75%;
+width: 10%;
+height: 7.5%;
+background-color: #d5db22;
+-ms-transform: rotate(270deg);
+-webkit-transform: rotate(270deg);
+transform: rotate(270deg);
+text-align: center;
+padding: auto;
+padding-top: 11px;
+font-size: 19px;
 }
 
-.caption .btn-start:hover {
- color: #fefeff;
-   background: #02548a;
-   font-size: 20px;
+div .fdbk:hover {
+  color: white;
 }
+
+/*media queries*/
+
+@media (min-width:925px)and (max-width:1024px) {
+  #fdback {
+  position: fixed;
+  left: 92%;
+  top:75%;
+  width: 12%;
+  height: 7.5%;
+  background-color: #d5db22;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  text-align: center;
+  padding: auto;
+  padding-top: 11px;
+  font-size: 19px;
+  }
+
+  div .fdbk:hover {
+  color: white;
+  }
+}
+
+
+@media (min-width:768px)and (max-width:924px) {
+  #fdback {
+    position: fixed;
+  left: 91.2%;
+  top:75%;
+  width: 13%;
+  height: 7.5%;
+  background-color: #d5db22;
+  -ms-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  transform: rotate(270deg);
+  text-align: center;
+  padding: auto;
+  padding-top: 11px;
+  font-size: 19px;
+  }
+
+  div .fdbk:hover {
+    color: white;
+  }
+
+
+}
+
+@media screen and (max-width:767px) {
+  #fdback {
+   display: none;
+  }
+
+}
+
+
+@media screen and (min-width:767px) {
+  #feeddisp {
+  display:none;
+  }
+}
+
 
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -577,7 +643,7 @@ h3.viewmore {
 
 #single-portfolio .close-folio-item {
   position: absolute;
-  top: 30px;
+  top: 30px;container2
   font-size: 34px;
   width: 34px;
   height: 34px;
@@ -709,6 +775,731 @@ section#gallery{
 #gallery h2 {
     color: #fefefe;
 }
+
+/****************Results section************/
+
+#results {
+	position: relative;
+	height:1300px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+
+
+.tablsize {
+	width:440px;
+	height:400px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 3px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:440px;
+	height:400px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Media queries*/
+
+
+@media (min-width:1300px) and (max-width:1359px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+}
+
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+.tablsize {
+	width:420px;
+	height:380px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 1px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:420px;
+	height:380px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+
+@media (min-width:1245px) and (max-width:1299px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+	font-size:13px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+
+.tablsize {
+	width:400px;
+	height:360px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+
+.tabl tr {
+	padding:2px;
+}
+
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+}
+
+.tabl2size {
+	width:400px;
+	height:360px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:34%;
+}
+
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+@media (min-width:1190px) and (max-width:1244px) {
+
+    #results {
+	position: relative;
+	height:1300px;
+	font-size:12px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:33.333%;
+	padding: 8px;
+	float: left;
+
+}
+
+.container3 {
+	width:33.333%;
+	padding: 8px;
+	float:right;
+
+}
+
+.tablsize {
+	width:380px;
+	height:340px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+.container4{
+	float:left;
+	width: 50%;
+
+}
+
+.container5{
+	float: right;
+	width: 50%;
+
+}
+
+.tabl2size {
+	width:380px;
+	height:340px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:34%;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:34%;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+@media (min-width:845px) and (max-width:1189px) {
+
+    #results {
+	position: relative;
+	height:1500px;
+	font-size:13px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:50%;
+	padding: 8px;
+	float: left;
+
+
+}
+.container2 {
+	width:50%;
+	padding: 8px;
+	float: right;
+
+
+}
+
+.container3 {
+	width:50%;
+	padding: 8px;
+	float:left;
+
+}
+
+
+
+
+.tablsize {
+	width:400px;
+	height:360px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: -9px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:right;
+	width: 50%;
+
+
+
+}
+
+.container5{
+
+	width: 100%;
+
+}
+
+.tabl2size {
+	width:400px;
+	height:360px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:auto;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+}
+
+
+@media screen and (max-width:844px) {
+
+    #results {
+	position: relative;
+	height:2500px;
+	font-size:14px;
+}
+#results h2 {
+	text-align: center;
+
+}
+
+#tablehead {
+	color:#0273a3;
+	font-size:21px;
+	text-align: center;
+}
+
+
+.container1 {
+	width:100%;
+	padding: 8px;
+	float: left;
+	clear:both;
+
+
+}
+.container2 {
+	width:100%;
+	padding: 8px;
+	float: left;
+	clear:both;
+
+
+
+}
+
+.container3 {
+	width:100%;
+	padding: 8px;
+	float:left;
+	clear:both;
+
+}
+
+
+
+
+.tablsize {
+	width:440px;
+	height:400px;
+}
+
+.tabl{
+ border-collapse: collapse;
+ margin: auto;
+
+}
+.tabl tr {
+	padding:2px;
+}
+.tabl th {
+	background-color:#0273a3;
+	color: white;
+}
+.tabl th,td{
+  padding: 1px;
+  text-align: center;
+  border:  1px solid #ddd;
+}
+
+
+
+.container4{
+	float:left;
+	width: 100%;
+	clear:both;
+
+}
+
+.container5{
+	float: left;
+	width: 100%;
+	clear:both;
+
+}
+
+.tabl2size {
+	width:440px;
+	height:400px;
+}
+.table4 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+    margin-right:auto;
+}
+
+.table5 {
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-top:auto;
+margin-right:auto;
+}
+
+.tabl2{
+ border-collapse: collapse;
+
+}
+
+.tabl2 th {
+	background-color:#0273a3;
+	color: white;
+
+}
+
+.tabl2 th,td{
+  padding: 3px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+}
+
+
+
+
+
 
 /*************************
 *****Pricing Table CSS****
